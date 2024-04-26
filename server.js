@@ -6,7 +6,7 @@ const mysql = require('mysql2');
 const app = express();
 
 const dbConfig = {
-  host: process.env.DB_HOST,
+  host: process.env.DATABASE_URL,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
 };
